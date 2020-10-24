@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:clipToPadding="false"
+    android:fillViewport="false"
+    android:visibility="visible">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:backgroundTint="@android:color/background_light"
+        tools:context=".Promo.Promoinfoscherm">
+
+        <Button
+            android:id="@+id/btnTerug"
+            android:layout_width="128dp"
+            android:layout_height="39dp"
+            android:background="@drawable/btn_round_corners"
+            android:fontFamily="@font/frutiger_lt_std_bold_cn"
+            android:onClick="NextScreen"
+            android:padding="10dp"
+            android:text="Volgende vraag"
+            android:visibility="invisible"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgFoto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.939"
+            app:layout_constraintStart_toStartOf="@+id/imgFoto"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.131" />
+
+        <TextView
+            android:id="@+id/txtInfo"
+            android:layout_width="381dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/frutiger_lt_std_light"
+            android:scrollbars="vertical"
+            android:text="Hier komt de text van het infoscherm"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txthead"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/txthead"
+            android:layout_width="378dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/frutiger_lt_std_bold_cn"
+            android:text="Kopje"
+            android:textColor="#4D5693"
+            android:textSize="36sp"
+            app:autoSizeMaxTextSize="24sp"
+            app:autoSizeMinTextSize="1sp"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toTopOf="@+id/txtInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.567"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgFoto" />
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="412dp"
+            android:layout_height="161dp"
+            android:background="#000000"
+            android:padding="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnmail"
+            android:layout_width="293dp"
+            android:layout_height="31dp"
+            android:background="@drawable/btn_round_corners_grad"
+            android:fontFamily="@font/frutiger_lt_std_bold_cn"
+            android:onClick="Openmail"
+            android:text="Klik hier om Promostudent te worden!"
+            app:layout_constraintBottom_toBottomOf="@+id/imgFoto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.923" />
+
+        <Button
+            android:id="@+id/btnVolgende"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="NextScreen"
+            android:text="Volgende (DEBUG)"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.155"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.036" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

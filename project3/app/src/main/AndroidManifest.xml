@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.onboarding">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".Introductie.IntoductieScherm"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Promo.Promoscherm"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Feedback.Feedback"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Vragen.VraagInfoscherm"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Vragen.Vraagscherm"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Eindscherm.Eindscherm"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Promo.Promoinfoscherm"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity android:name=".Beginscherm.Beginscherm">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

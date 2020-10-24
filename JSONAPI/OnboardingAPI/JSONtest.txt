@@ -1,0 +1,39 @@
+
+   {
+ 	
+		"Count":{"count": 3},
+ 		"Vraag1":{
+ 			"ID": 1,
+ 			"Vraag": "Heb je extra begeleiding nodig tijdens je opleiding?",
+ 			"InfoText": "Hulp en begeleiding\n\nJe studeert niet alleen bij Avans Hogeschool vanwege prima hoger beroepsonderwijs. Je mag tijdens je opleiding ook rekenen op goede begeleiding. Vragen zijn er om gesteld te worden. Bijvoorbeeld als je niet weet welke opleiding je moet kiezen. Als er dingen zijn die prettig studeren in de weg staan. Of advies wilt over persoonlijke problemen.\nStudieloopbaanbegeleiding\nVragen over je opleiding stel je aan je studiebegeleider. Die kent de opleiding, de planning, de examenregelingen en de groepsindeling. En weet welke problemen er op je pad kunnen komen. Als eerstejaars student heb je een mentor, tutor of coach aan wie je je vragen kunt stellen. Ook docenten helpen je graag. Tijdens je hele opleiding heb je een studieloopbaanbegeleider.\nStudentendecanen\nOnze studentendecanen helpen je met alles wat je studieloopbaan kan beïnvloeden. Je functiebeperking, topsportcarrière of persoonlijke problemen. Ze vertellen je meer over aanpassingen of tegemoetkomingen die je kunt aanragen. Begeleiden je bij (dreigende) studievertraging. Of helpen je om je opnieuw te oriënteren als je wilt overstappen naar een andere opleiding. Zij zijn er ook voor vragen over wet- en regelgeving. Studiefinanciering. Of klachten, bezwaren en beroepsprocedures.",
+ 			"Antwoord":"ja",
+			"Image": "https://adaonboarding.ml/t3/photos/functiebeperking.jpg"
+		},
+ 		"Vraag2":{
+ 			"ID": 2,
+ 			"Vraag": "Heb je buitenschoolse activiteiten die de positieve loop van je studie kunnen belemmeren?",
+ 			"InfoText": "Studeren en topsport\nJij doet aan topsport. En wilt dat combineren met een hbo-opleiding. Je wedstrijden en trainingen kosten je al gauw zo’n 15 à 20 uur per week. Dus loop je kans om een les of een tentamen te missen. Je hebt een grotere kans op studievertraging, of zelfs uitval. Toch kan topsport samengaan met studeren. De mogelijkheden zijn afhankelijk van jouw sport en van de opleiding die je wilt doen. We geven je graag advies op maat.\nStuderen en topsport\nJij doet aan topsport. En wilt dat combineren met een hbo-opleiding. Je wedstrijden en trainingen kosten je al gauw zo’n 15 à 20 uur per week. Dus loop je kans om een les of een tentamen te missen. Je hebt een grotere kans op studievertraging, of zelfs uitval. Toch kan topsport samengaan met studeren. De mogelijkheden zijn afhankelijk van jouw sport en van de opleiding die je wilt doen. We geven je graag advies op maat.\nWij denken mee\nLaat ons weten dat jij aan topsport doet. Liefst meteen bij je inschrijving. Vul voor het aanvragen van topsportvriendelijke faciliteiten het inventarisatieformulier in. Vervolgens vragen we je om een afspraak te maken bij de studentendecaan. De decaan vertelt je over de procedure en inventariseert de te verwachten knelpunten. Deze inventarisatie leg je voor aan de coördinator topsport van je opleiding. Die stelt samen met jou een onderwijsleercontract op. Met afspraken over je planning en hoe je je studiepunten gaat behalen. Als dit contract wordt goedgekeurd door de Examencommissie mag je starten met je opleiding.",
+ 			"Antwoord":"ja",
+			"Image": "https://adaonboarding.ml/t3/photos/topsport.jpg"
+ 		},
+ 		"Vraag3":{
+ 			"ID": 3,
+ 			"Vraag": "Weet je al hoe je op school moet komen?",
+ 			"InfoText": "Bereikbaarheid\nOpenbaar vervoer\nDe school ligt dicht bij het NS-station en er is een bushalte voor de deur. Bereken je reistijd via 9292.\nAuto\nJe kunt via Google Maps je route berekenen.\nParkeren\nDeze locatie heeft een eigen parkeergarage onder het gebouw. De parkeerplaatsen hier zijn bedoeld voor medewerkers en studenten met een functiebeperking. Zij krijgen toegang met een speciale pas. Voor bezoekers zijn er enkele parkeerplaatsen achter het gebouw beschikbaar.\nJe kunt ook parkeren in de naastgelegen parkeergarage Mill Hill aan de Vrouwemadestraat 70. Het tarief is € 0,60 per 20 minuten. Maximaal dagtarief is € 9.",
+ 			"Antwoord":"nee",
+			"Image": "https://adaonboarding.ml/t3/photos/avans_academie.jpg"
+ 		},
+		
+
+    "Promo": {
+            "ID": 4,
+ 			"Vraag": "Wordt ook promostudent!",
+			"InfoText": "Vind jij het leuk om onze school en/of je eigen opleiding te promoten op verschillende Open Dagen? Of wil je meehelpen aan verschillende evenementen die onze school organiseert?\nMeld je dan aan als promostudent!\nGeef zelf aan naar welke open dag je wilt\nVerbeter eventueel je presentatie skills\nOntmoet studenten van andere opleidingen\nVerdien nog wat bij! Namelijk €8,50 per uur + reiskosten\nWil jij nou meer informatie of je aanmelden als promostudent?\nAls promostudent ben je een visitekaartje voor de school en je opleiding. \nAls je eenmaal aangemeld bent kun je aangeven bij welke Open Dagen je graag wilt en kunt helpen en welke liever niet. Als promostudent kom je in contact met de studenten van andere opleidingen en doe je veel ervaring op tijdens de evenementen. \nOok kan je leuk bijverdienen, iedereen verdient €8,50 per uur netto. Reiskosten worden in de meeste gevallen ook vergoed!\nHeb jij zelf ideeën voor evenementen? Dan horen we dat natuurlijk ook heel graag!\nMeld je nu aan!\n",
+            "Image": "https://adaonboarding.ml/t3/photos/promo.jpg"
+    },
+
+    "Introductie": {
+            "ID": 100,
+ 	    "Vraag": "Nu de introductie voor jou opleiding steeds dichterbij komt is hier nog wat praktische informatie:\nProgramma introductiedagen\nWoensdag 28 augustus van 9:45 tot 17:00 uur\nInformatie over jouw lesprogramma en uitleg over onze systemen\nDonderdag 29 augustus van 9:45 tot 18:00 uur\nInformatie over onze school en kennismaking met klasgenoten en Roosendaal"
+    }
+ }
